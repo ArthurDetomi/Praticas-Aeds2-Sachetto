@@ -1,2 +1,2 @@
-# Repositório criado para realizar atividades praticas de C
+# Repositório criado para realizar atividades praticas de C e aprender a usar o VIM
 
