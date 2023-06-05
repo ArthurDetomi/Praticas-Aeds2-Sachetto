@@ -1,7 +1,7 @@
-#include <stdio.h>
 #include <stdbool.h>
+#include <stdio.h>
 
-int main (void) {
+int main(void) {
     int num;
     bool ehprimo = true;
 
@@ -9,12 +9,10 @@ int main (void) {
     do {
         printf("Digite um numero positivo:");
         scanf("%d", &num);
-    } while(num < 0);
-
-
+    } while (num <= 0);
 
     if (num > 3 || num % 2 != 0) {
-        for (int i = num - 1; i >= 2; i--) {
+        for (int i = num - 1; i > 2; i--) {
             if (num % i == 0) {
                 ehprimo = false;
                 break;
